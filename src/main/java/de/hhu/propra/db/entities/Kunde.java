@@ -17,6 +17,6 @@ public class Kunde {
     private Integer plz;
 
     // TODO: Hier muss irgendetwas mit Autos hin...
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<Auto> autos;
 }

@@ -6,7 +6,6 @@ import javax.persistence.*;
 
 @Data // Lombok - Generiert Getter, Setter, toString, ...
 @Entity
-@Embeddable
 public class Auto{
     @Id
     @GeneratedValue
