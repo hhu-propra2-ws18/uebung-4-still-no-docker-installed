@@ -11,7 +11,7 @@ public class Auto{
     @GeneratedValue
     private Long id;
 
-    private String marke;
-    private String farbe;
-    private int hubraum;
+    String marke;
+    String farbe;
+    int hubraum;
 }
