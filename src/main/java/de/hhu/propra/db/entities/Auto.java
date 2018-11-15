@@ -10,6 +10,8 @@ import javax.persistence.Id;
 @Data // Lombok - Generiert Getter, Setter, toString, ...
 @Entity
 public class Auto{
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String marke;

@@ -20,5 +20,5 @@ public class Kunde {
     private Integer plz;
 
     // TODO: Hier muss irgendetwas mit Autos hin...
-    List<Auto> autos;
+    private List<Auto> autos;
 }
